@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = 'jekyll-nan-theme'
+  spec.name          = 'jekyll-theme-nan'
   spec.version       = '0.1.0'
   spec.authors       = ['Nan Zhong']
   spec.email         = ['nan@notanumber.io']
 
   spec.summary       = 'Jekyll theme that is used by https://notanumber.io.'
-  spec.homepage      = 'https://github.com/nanzhong/jekyll-nan-theme'
+  spec.homepage      = 'https://github.com/nanzhong/jekyll-theme-nan'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split('\x0').select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
