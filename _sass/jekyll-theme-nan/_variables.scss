@@ -1,27 +1,18 @@
-/* SCSS Variables */
-
 /*--------------
-  Font
+  colour
   -------------- */
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600';
+$colour-white-light: #FFFFFF;
+$colour-white: #F8F8F9;
+$colour-white-dark: #F1F2F3;
 
-$base-font: "Source Sans Pro", Helvetica, Arial, sans-serif;
-$code-font: Menlo, Monaco, monospace;
-$code-gist-font: Menlo, Monaco, "Courier New", monospace !important;
+$colour-grey-light: #EDEEEF;
+$colour-grey: #C0C3C5;
+$colour-grey-dark: #9DA1A4;
 
+$colour-black-light: #7D8186;
+$colour-black: #6D7277;
+$colour-black-dark: #4D5359;
 
-/*--------------
-  Color
-  -------------- */
-$base-color: rgba(#333,0.8);
-$base-lighten-color: lighten($base-color, 50);
+$colour-green: #C3F73A;
 
-$background-color: #fff;
-$background-over-color: #f5f7f9;
-
-$text-color: #333;
-$link-color: #268bd2;
-$code-color: #bf616a;
-$code-background-color: #f9f9f9;
-$table-border-color: #e5e5e5;
-$table-background-color: #f9f9f9;
+$colour-orange: #FA7921;

@@ -1,0 +1,95 @@
+.post {
+  .post-title {
+    margin-bottom: 10px;
+  }
+
+  .post-tags {
+    .tag-list {
+      list-style: none;
+      margin: 10px 0 20px 0;
+      padding: 0;
+
+      .tag-list-item {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .post-list-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid $colour-grey-light;
+
+    .post-list-item-header {
+      h1 {
+        margin-bottom: 5px;
+        font-size: 3.8rem;
+
+        a:hover {
+          text-decoration: none;
+        }
+      }
+
+      .date {
+        margin-left: 50px;
+      }
+    }
+
+    .post-list-item-body {
+      margin-top: 15px;
+      clear: both;
+    }
+
+    .post-list-item-footer {
+      text-align: right;
+
+      .read-time {
+        margin-right: 30px;
+      }
+
+      .tag-list {
+        list-style: none;
+        margin: 20px 0 0 0;
+        padding: 0;
+
+        .tag-list-item {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+.post-pagination {
+  text-align: center;
+
+  .post-pagination-previous {
+    margin-right: 20px;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  .post-pagination-next {
+    margin-left: 20px;
+
+    i {
+      margin-left: 10px;
+    }
+  }
+}
+
+.tag {
+  background-color: $colour-white-dark;
+  padding: 5px;
+  border-radius: 3px;
+}

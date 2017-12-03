@@ -1,0 +1,36 @@
+.container {
+  max-width: 80.0rem;
+}
+
+body {
+  color: $colour-black-light;
+}
+
+a {
+  color: $colour-black;
+
+  &:hover {
+    color: $colour-grey-dark;
+  }
+}
+
+small {
+  font-size: 90%;
+}
+
+figure.highlight {
+  border-left: 5px solid $colour-orange;
+
+  pre {
+    margin: 0;
+    border: 0;
+  }
+
+  table {
+    margin: 0;
+
+    td {
+      border: 0;
+    }
+  }
+}
