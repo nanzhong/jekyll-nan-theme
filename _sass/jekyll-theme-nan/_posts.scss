@@ -22,11 +22,18 @@
   padding: 0;
 
   .post-list-item {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-bottom: 1px solid $colour-grey-light;
+
+    @media (min-width: 40.0rem) {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
 
     .post-list-item-header {
       h1 {
