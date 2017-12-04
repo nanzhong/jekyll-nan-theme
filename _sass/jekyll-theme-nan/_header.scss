@@ -25,16 +25,21 @@ header {
   }
 
   .social-links {
-    display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: right;
+    display: block;
+    text-align: center;
 
     li {
       display: inline;
       margin-left: 20px;
       margin-right: 20px;
+    }
+
+    @media (min-width: 40.0rem) {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      float: right;
     }
   }
 
@@ -54,7 +59,11 @@ header {
   }
 
   &.small {
-    position: relative;
+    position: static;
+
+    @media (min-width: 40.0rem) {
+      position: relative;
+    }
 
     .title {
       display: inline-block;
@@ -70,12 +79,15 @@ header {
     }
 
     .header-nav {
-      position: absolute;
-      display: inline-block;
-      bottom: 0;
-      right: 0;
-      text-align: right;
       font-size: 2.0rem;
+
+      @media (min-width: 40.0rem) {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+      }
     }
   }
 }
