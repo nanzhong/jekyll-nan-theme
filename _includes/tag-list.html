@@ -1,5 +1,5 @@
 <ul class="tag-list">
   {% for tag in include.tags %}
-    <li class="tag-list-item"><a class="tag" href="{{ 'tags/' | relative_url }}{{ tag }}">{{ tag }}</a></li>
+    <li class="tag-list-item"><a class="tag" href="{{ 'tags/' | relative_url }}#{{ tag }}">{{ tag }}</a></li>
   {% endfor %}
 </ul>
