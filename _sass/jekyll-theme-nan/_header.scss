@@ -34,7 +34,7 @@ header {
       margin-right: 20px;
     }
 
-    @media (min-width: 80.0rem) {
+    @media (min-width: 40.0rem) {
       display: inline-block;
       list-style: none;
       margin: 0;
@@ -61,7 +61,7 @@ header {
   &.small {
     position: static;
 
-    @media (min-width: 80.0rem) {
+    @media (min-width: 40.0rem) {
       position: relative;
     }
 
@@ -81,7 +81,7 @@ header {
     .header-nav {
       font-size: 2.0rem;
 
-      @media (min-width: 80.0rem) {
+      @media (min-width: 40.0rem) {
         position: absolute;
         display: inline-block;
         bottom: 0;
