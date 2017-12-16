@@ -36,9 +36,9 @@
     {% endif %}
 
     {% if page.twitter.image %}
-      <meta name="twitter:image:src" content="{{ page.twitter.image }}">
+      <meta name="twitter:image" content="{{ page.twitter.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ /assets/favicon-96.png | absolute_url }}">
+      <meta name="twitter:image" content="{{ /assets/favicon-96.png | absolute_url }}">
     {% endif %}
   {% endif %}
 
