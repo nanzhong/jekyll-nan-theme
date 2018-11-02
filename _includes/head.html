@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
+  <meta content="text/html; charset=UTF-8" name="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }} - {% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}</title>
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous">
@@ -14,33 +14,6 @@
   <link rel="icon" type="image/png" href="{{ '/assets/favicon-16.png' | absolute_url }}" sizes="16x16">
   <link rel="icon" type="image/png" href="{{ '/assets/favicon-32.png' | absolute_url }}" sizes="32x32">
   <link rel="icon" type="image/png" href="{{ '/assets/favicon-96.png' | absolute_url }}" sizes="96x96">
-
-  {% if site.author.twitter %}
-    {% if page.twitter.card %}
-      <meta name="twitter:card" content="{{ page.twitter.card }}">
-    {% else %}
-      <meta name="twitter:card" content="summary">
-    {% endif %}
-
-    <meta name="twitter:site" content="@{{site.author.twitter}}">
-    <meta name="twitter:creator" content="@{{site.author.twitter}}">
-
-    {% if page.title %}
-      <meta name="twitter:title" content="{{ page.title }}">
-    {% else %}
-      <meta name="twitter:title" content="{{ site.title }}">
-    {% endif %}
-
-    {% if page.url %}
-      <meta name="twitter:url" content="{{ page.url | absolute_url }}">
-    {% endif %}
-
-    {% if page.twitter.image %}
-      <meta name="twitter:image" content="{{ page.twitter.image | absolute_url }}">
-    {% else %}
-      <meta name="twitter:image" content="{{ '/assets/favicon-96.png' | absolute_url }}">
-    {% endif %}
-  {% endif %}
 
   {% seo %}
 
